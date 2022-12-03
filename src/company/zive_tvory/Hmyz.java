@@ -13,14 +13,14 @@ public abstract class Hmyz extends Bezstavovce {
     @Override
     public void born(Date day_of_birth) {
 
-        System.out.println("Narodil som sa v" + super.day_of_birth.toString());
+        System.out.println("Narodil som sa: " + super.day_of_birth.toString());
 
     }
 
     @Override
     public void die(Date day_of_die) {
 
-        System.out.println("Zomrel som v" + super.day_of_birth.toString());
+        System.out.println("Zomrel som: " + super.day_of_birth.toString());
 
     }
 
